@@ -10,22 +10,20 @@
 }
 
 #input2 {
-  width: 198px;
-  height: 31px;
   border: solid 2px #000000;
   font-family: Helvetica;
+  padding: 10px;
   font-size: 20px;
   font-weight: normal;
 }
 
 #input3 {
-  width: 198px;
-  height: 31px;
   font-family: Helvetica;
   font-size: 20px;
   font-weight: normal;
   border: none;
   border-bottom: solid 2px #000000;
+  padding: 10px;
 }
 
 #input4 {
@@ -46,4 +44,42 @@
   color: #ffffff;
   border: none;
   padding: 10px;
+}
+
+body {
+  font-size: 20px;
+}
+
+p {
+  margin: 40px;
+}
+
+.form {
+  display: flex;
+}
+
+.form input {
+  flex-grow: 1;
+}
+
+.form input, label {
+  border: 2px solid;
+  padding: 10px 13px;
+}
+
+.form button {
+  background: black;
+  color: white;
+  padding: 10px 13px;
+  border: none;
+}
+
+input, button, label {
+  font-size: 20px;
+  font-family: Helvetica;
+}
+
+label {
+  background-color: #f2f2f2;
+  border-right: none;
 }
